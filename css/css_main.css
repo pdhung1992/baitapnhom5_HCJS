@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand:wght@400;500;700&family=Roboto:wght@100;400;500;700;900&display=swap');
 
 *{
     margin: 0;
@@ -13,6 +13,9 @@ body{
     background-color: #FFFFFF;
     font-weight: 400;
     text-align: left;
+}
+li{
+    list-style: none;
 }
 a{
     text-decoration: none;
