@@ -1,4 +1,4 @@
-header {
+header{
     background-color: #C19942;
     padding: 0 20px;
     height: 70px;
@@ -6,39 +6,32 @@ header {
     align-items: center;
     border-bottom: solid 2px #ffffff;
 }
-
-.header {
+.header{
     position: fixed;
     left: 0;
     right: 0;
 }
-
-.main-menu {
+.main-menu{
     text-align: center;
 }
-
-.main-menu .btn {
+.main-menu .btn{
     width: 100%;
 }
-
-.logo a {
+.logo a{
     color: #FFFFFF;
     font-family: 'Pacifico', cursive;
     display: flex;
     justify-content: center;
 }
-
-.btn-outline-light {
+.btn-outline-light{
     border: none;
 }
-
-.cart-sum {
+.cart-sum{
     color: #FFFFFF;
     border: 1px #FFFFFF solid;
     border-radius: 10px;
 }
-
-.cart-item {
+.cart-item{
     text-align: center;
     justify-content: center;
     line-height: 56px;
