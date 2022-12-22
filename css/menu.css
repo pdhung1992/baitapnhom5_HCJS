@@ -1,49 +1,55 @@
-.menu_slide_bar{
-    /*margin-top: 100px;*/
-    /*position: fixed;*/
+.content {
+    margin: 0px 50px 0px 70px;
+    padding-top: 80px;
+    padding-bottom: 10px;
 }
-.menu_slide_bar .widget_title{
-    margin-top: 100px;
-    /*margin-left: 30px;*/
-    border-bottom: 1px solid #ededed;
+
+.menu_slide_bar {
+    color: #C19942;
 }
-.menu_slide_bar .widget_content ul{
-    margin-bottom: 0;
-}
-.menu_slide_bar .widget_content ul li{
+
+.widget_content ul li {
     border-bottom: 1px solid #ededed;
     list-style-type: none;
     margin: 10px;
-    padding-right: 20px;
 }
-.menu_content{
-    margin-top: 100px;
+
+.name {
+    text-align: center;
+    background-color: rgba(185, 131, 16, 0.96);
+    color: #FFFFFF;
+    border-radius: 10px;
+    font-family: 'Pacifico', cursive;
+    height: auto;
 }
-.top_menu_title{
-    border-bottom: 1px solid #000000;
-}
-.menu_cat{
-    border-bottom: 1px solid #000000;
-}
-.m1{
+
+.menu {
     display: flex;
     flex-wrap: wrap;
 }
-.menu_item{
-    width: calc(33.3% - 20px);
+
+.menu .a1 {
+    width: calc(25% - 20px);
     float: left;
     margin: 10px;
     box-sizing: border-box;
-    padding: none;
     text-align: center;
-
 }
-.menu_item img{
+
+
+.menu .a1 img {
     display: block;
     width: 100%;
-    margin: auto;
     margin-bottom: 15px;
-    border-radius: 10px;
-    box-shadow: 0px 0px 13px 0px #00000040;
+    border-radius: 6px;
+    box-shadow: 0px 0px 5px #525050;
 }
 
+.btn-outline-danger {
+    background-color: #0a58ca;
+    color: #FFFFFF;
+}
+
+.btn-outline-danger:hover {
+    background-color: #e01d1d;
+}
